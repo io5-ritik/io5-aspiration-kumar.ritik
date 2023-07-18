@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .form-container {
+        border: 1px solid #d1d5d7;
+        width: 50%;
+        margin: 2% 0% 10% 30%;
+        border-radius: 10px;
+        background-color: #f8f8f8;
+      }
+     
+      .logo {
+        width: 10%;
+      }
+      .logo-end-hr {
+        height: 1px;
+        background-color: rgb(225, 221, 221);
+      }
+
+      .form-title-container {
+        background-color: #e4dbd7;
+      }
+      .title {
+        width: 33%;
+        margin: auto;
+        padding: 2% 0;
+      }
+      .title-des {
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        padding: 0% 0 3% 0;
+      }
+      .form-section {
+        width: 55%;
+        margin: 10%;
+      }
+      .input-field {
+        width: 75%;
+        margin-left: 2%;
+        margin-top: 6%;
+    
+      }
+      .btn-container {
+        width: 35%;
+        margin: 4% auto;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="form-container">
+    
+      <hr class="logo-end-hr" />
+      <div class="form-section">
+        <h3 class="title">Create an Account</h3>
+        <p class="title-des">
+         
+        </p>
+      </div>
+      <div>
+        <form class="form-section">
+          <label for="First_name">Full Name:</label>
+          <input
+            class="input-field"
+            id="Full_Name"
+            type="text"
+            placeholder="Full Name"
+          />
+
+          <br />
+
+          <label for="last_name">Email Address</label>
+          <input
+            class="input-field"
+            id="Email Address"
+            type="text"
+            placeholder="abcd@gmail.com"
+          />
+          <br />
+
+          <label for="mob">Phone no.</label>
+          <input
+            class="input-field"
+            id="mob"
+            type="number"
+            placeholder="+01"
+          />
+          <br />
+
+          <label for="username">Password</label>
+          <input
+            class="input-field"
+            id="Password"
+            type="text"
+            placeholder="Password"
+            maxlength="5"
+            minlength="3"
+          />
+          <br />
+
+          <br />
+          <label for="Website">Website</label>
+          <input
+            class="input-field"
+            id="Website"
+            type="text"
+            placeholder="Website"
+            maxlength="5"
+            minlength="3"
+            />
+            <br />
+
+            <p> I Agree All Statements In Terms Of Service</p>
+
+
+          <div class="btn-container">
+            <input class="save-btn" type="button" value="Create an Account" />
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
