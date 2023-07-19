@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration Form</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+    .form-title-container {
+       
+        justify-content: center;
+        background-color: hsl(246.72deg 64.57% 67.1%);
+
+           
+            border: 1px solid purple;
+            height: 50px;
+            width: 50%;
+            margin: 2% auto;
+            border-radius: 20%;
+        }
+        .title {
+            width: 52%;
+            margin: 2% auto; 
+        }
+
+        .form form-section {
+            width: 94%;
+    background-color: hsl(246.72deg 64.57% 67.1%);;
+    margin: auto;
+        }
+        input {
+            width: 40%;
+    margin-left: 4%;
+    margin-top: 4%;
+   
+        }
+        
+
+        </style>
+        </head>
+        <main class="form-title container">
+            <h3 class="title">Student Registration Form</h3>
+            <br />
+            <div>
+                <form class="form-section">
+                    <lable for="FIRST_NAME">FIRST NAME :</lable>
+                    <input id="FIRST_NAME" type="text" /> (max 30characters a-z and A-Z)
+                    <br />
+
+                    <lable for="LAST_NAME">LAST NAME :</lable>
+                    <input id="LAST_NAME" type="text" />(max 30characters a-z and A-Z)
+                    <br />
+                    
+                    <lable for="data-field">Date Of Birth: </lable>
+                    <input 
+                    id="data-field"
+                    class="input-field"
+                    type="Date"
+                    type="month"
+                    type="year"
+                    required/>
+                    <br />
+
+                    <label for="email-field">Email:</label>
+                    <input
+                    id="email-feild"
+                    class="input-field"
+                    type="email"
+                    required
+                    />
+                    <br />
+
+                    <lable for="mob">Mobile Number:</lable>
+                    <input
+                    id="number-feild"
+                    class="input-field"
+                    type="number"
+                    reauired
+                    />(10 digit number)
+                    <br />
+                </div>
+                <br/>
+
+                    <div class="input-cont">
+                        <label>Gender:</label>
+
+                        <div>
+                        
+                            <input type="radio" id="male" value="" /><lable for="male">male</lable>
+                            <div>
+                            <input type="radio" id="female" value="" /><label for="female">female</label>
+                            
+                        </div>
+                    </div>
+                    <div>
+                        <lable for="City">City:</lable>
+                    <input id="City" type="text" /> (max 30characters a-z and A-Z)
+                    <br />
+                    </div>
+
+                    <div>
+                        <lable for="Address">Address :</lable>
+                    <input id="Address" type="text" /> (max 30characters a-z and A-Z)
+                    <br />
+                    </div>
+
+                    <div>
+                        <lable for="Pin Code">Pin Code:</lable>
+                    <input id="Pin Code" type="text" /> (6 digit number)
+                    <br />
+                    </div>
+                    
+                    <div>
+                        <lable for="State">State:</lable>
+                    <input id="State" type="text" /> (max 30characters a-z and A-Z)
+                    <br />
+                    </div>
+                    
+                    <div>
+                        <lable for="Country">Country:</lable>
+                    <input 
+                    id="data-field"
+                    class="input-field"
+                    type="India"
+                    required/>
+                    <br />
+                    <br />
+                    </div>
+
+
+
+                    <div class="input-cont">
+                        <label>Hobbies:</label>
+
+                        <div>
+                        
+                            <input type="radio" id="Drawing" value="" /><lable for="Drawing">Drawing</lable>
+                            <br />
+                            <input type="radio" id="Singing" value="" /><label for="Singing">Singing</label>
+                            <br />
+                            <input type="radio" id="Sketching" value="" /><lable for="Sketching">Sketching</lable>
+                            <br />
+                            <input type="radio" id="Dancing" value="" /><label for="Dancing">Dancing</label>
+                            
+                        </div>
+
+
+
+
+
+
+
+
+                </form>
+            </div>
+        </main>
+    </body>
+    
+    </html>
